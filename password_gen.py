@@ -33,6 +33,7 @@ def password_gen(length=8):
         elif isan == 2:
             a = random.choice(string.ascii_letters)
             f.write(a)
+    print(f.readlines())
     f.close()
     
 
